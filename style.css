@@ -1,0 +1,327 @@
+h1 {
+  color: rgb(13, 13, 122);
+}
+body {
+  background: rgb(34, 5, 59);
+  background: linear-gradient(
+    0deg,
+    rgb(173, 101, 231) 0%,
+    rgb(223, 149, 238) 25%,
+    rgb(199, 81, 144) 50%,
+    rgb(131, 95, 160) 75%,
+    rgb(131, 82, 230) 100%
+  );
+}
+.navbar {
+  height: 70px;
+  padding: 2rem;
+  transition: all 0.2s ease;
+  a {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  img {
+    height: 60px;
+    width: 60px;
+    pad: 5px;
+  }
+}
+.navbar:hover {
+  background-color: #daa0f0;
+}
+.navbar a:hover {
+  text-shadow: 5px #f0ecec;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.hero {
+  min-height: 450px;
+  text-align: center;
+}
+.hero-principal {
+  padding: 2rem;
+  h2 {
+    font-size: 2rem;
+    color: #f1f2f3;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  h1 {
+    font-family: "GFS Didot", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(236, 228, 228);
+  }
+}
+
+.hero-imagen {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.hero-inferior img {
+  border-radius: 20px;
+  box-shadow: 5px gray;
+}
+
+.sobre-mi {
+  height: auto;
+  padding: 10px;
+}
+.contenedor {
+  max-width: 900px;
+  text-align: left;
+  .seccion-texto {
+    font-size: 1.5rem;
+    font-family: "GFS Didot", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "GFS Didot", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+.experiencia {
+  margin-top: 10px;
+  padding: 40px 40px 60px 40px;
+}
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.columna {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all 0.2s ease-in;
+}
+.columna :hover {
+  color: white;
+}
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.badges-contenedor {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.badge {
+  margin: 5px;
+  background-color: #7ade30;
+  color: black;
+}
+.experiencia .columna {
+  margin-top: 10px;
+  padding: 20px;
+  border: 5px solid #4948484d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+.columna:hover {
+  color: white;
+  background-color: #000;
+}
+/* Proyectoss */
+.proyectos-recientes {
+  padding: 40px;
+  img {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+}
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  iconos-contenedor {
+    display: flex;
+  }
+  i {
+    color: #000;
+    font-size: 60px;
+    margin: 10px;
+  }
+}
+.proyecto {
+  position: relative;
+  padding-bottom: 20px;
+}
+.proyecto img {
+  border-radius: 30px;
+  border: 3px solid black;
+}
+.proyecto:hover img {
+  opacity: 0.2;
+}
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+.btn {
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #7ade30;
+}
+.texto-negro {
+  color: #000;
+}
+.texto-blanco {
+  color: white;
+}
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #080808;
+}
+
+/* contacto */
+.contacto .container {
+  color: white;
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+.contacto .rectangulo {
+  background-color: #330f41;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px;
+}
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contacto-titulo {
+  font-size: 25px;
+}
+.contacto .description {
+  color: white;
+  font-size: 1.5rem;
+}
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin-top: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+  background-color: white;
+  color: #000;
+}
+.contacto button:hover i {
+  color: #000;
+}
+.contacto button i {
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.2 ease-in-out;
+}
+/* footer */
+footer {
+  height: auto;
+  width: 100%;
+}
+.footer-texto {
+  color: #f1f2f3;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.iconos-redes-sociales a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(65, 65, 243);
+}
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+.derechos-de-autor {
+  font-size: 15x;
+  color: #757171;
+  padding: 20px;
+}
+
+/*adaptable */
+@media screen and (max-width: 777px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
